@@ -1,6 +1,5 @@
 import CartActionTypes from './cart.types';
 import {addItemToCart, removeItemFromCart} from './cart.utils';
-import {act} from "@testing-library/react";
 
 const INITIAL_STATE = {
     hidden: false,
